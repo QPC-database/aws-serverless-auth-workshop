@@ -23,11 +23,11 @@ In the Amazon API Gateway console, update the authorization type to ***AWS_IAM**
 
 1. In the **Select existing authorizer** dropdown, select ***IAM (built-in)***.
 
-    ![API Gateway Authorizer Selection](../images/apigatewayv2-authorizer-iam-selection.png)
+    ![API Gateway Authorizer Selection](../../images/apigatewayv2-authorizer-iam-selection.png)
 
 1. **Save** your selection by clicking ***Attach authorizer***
 
-    ![API Gateway Authorizer Confirmation](../images/apigatewayv2-authorizer-iam-confirmation.png)
+    ![API Gateway Authorizer Confirmation](../../images/apigatewayv2-authorizer-iam-confirmation.png)
 
 1. Choose **Deploy**. 
 

@@ -14,11 +14,11 @@ weight = 22
     
 2. Now that the development server has started, click **Preview Running Application** in the top of the screen next to the Run button.
 
-    ![Preview Running Application](../images/cloud9-local-preview.png)
+    ![Preview Running Application](../../images/cloud9-local-preview.png)
     
 3. The web application will load in a small window next to the terminal at the bottom of the Cloud9 IDE. Click the **re-size** button next to the word **Browser** to open this window in a new tab.
 
-    ![resize button](../images/cloud9-resize-live-preview.png)
+    ![resize button](../../images/cloud9-resize-live-preview.png)
     
     As you make changes to the web application, this tab will automatically refresh to reflect your changes. Leave this tab open and return to the Cloud9 IDE tab to continue the workshop.
 

@@ -5,7 +5,7 @@ weight = 51
 
 Building on Modules 1 and 2, this module will add photo storage and management via an Amazon S3 bucket. For AWS resource access from a web application, Amazon Cognito will issue not only JWTs as we saw earlier, but then also allow users to assume an IAM role from within the application. This AWS IAM role will then allow their application to securely connect to upload and download photos from S3 (though any other AWS API would also work with this capability). To secure access to the photo storage and bucket, you will leverage IAM policies for fine-grained control.
 
-![Module 3 architecture](../images/wildrydes-module3-architecture.png)
+![Module 3 architecture](../../images/wildrydes-module3-architecture.png)
 
 ---
 #### Implementation Overview

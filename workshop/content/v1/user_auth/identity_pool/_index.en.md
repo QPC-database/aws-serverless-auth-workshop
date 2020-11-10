@@ -21,7 +21,7 @@ You will need to create a Cognito Identity Pool linked to the Cognito User Pool 
 
 5. Within the Cognito tab, input the User Pool ID and App client Id you copied previously to the scratchpad tab. 
 
-    ![Create Identity Pool](../images/cognito-identitypool-setup-step1.png)
+    ![Create Identity Pool](../../images/cognito-identitypool-setup-step1.png)
     
 6. Choose **Create Pool**.
 
@@ -31,10 +31,10 @@ You will need to create a Cognito Identity Pool linked to the Cognito User Pool 
 
     > Do not copy the quatation marks, but include the region code and ":" character.
                                                                                                                                                                                                                                                                                                                                     
-    ![Get AWS Credentials](../images/cognito-identitypool-copyId.png)
+    ![Get AWS Credentials](../../images/cognito-identitypool-copyId.png)
     
 9. Your scratchpad should now have values for the following Cognito resources:
 
-    ![Cognito scratchpad](../images/cognito-setup-scratchpad.png)
+    ![Cognito scratchpad](../../images/cognito-setup-scratchpad.png)
     
 {{% /expand %}}

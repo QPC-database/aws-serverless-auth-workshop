@@ -17,13 +17,13 @@ In the IAM console, assocate the **WildRydesAPI-StandardUserPolicy** with your C
 
 1. Search for ***WildRydes*** to see the ***WildRydesAPI-StandardUserPolicy*** which was created by the Serverless Backed CloudFormation template.
 
-    ![WildRydes API IAM Policy Search](../images/iam-policies-wildrydesapi-search.png)
+    ![WildRydes API IAM Policy Search](../../images/iam-policies-wildrydesapi-search.png)
 
 1. Click the **WildRydesAPI-StandardUserPolicy** policy name.
 
 1. Review the policy which was created by CloudFormation to authorize requests to your API Gateway deployment.
 
-    ![WildRydesAPI Policy Details](../images/iam-wildrydesapi-policy-details.png)
+    ![WildRydesAPI Policy Details](../../images/iam-wildrydesapi-policy-details.png)
 
     > This policy allows access to invoke any method on the /ride path for any API stage of your API gateway backend. For more details about authoring IAM policies for API Gateway, visit the controlling access to an API with IAM permissions documentation.
 
@@ -35,17 +35,17 @@ In the IAM console, assocate the **WildRydesAPI-StandardUserPolicy** with your C
 
     > If the full name of the role is hidden from view due to column width, you can hover over the partially visible name of the role to see the full name of the role as a tool tip.
 
-    ![IAM WildRydes Auth Role Selction](../images/iam-wildrydes-role-selection.png)
+    ![IAM WildRydes Auth Role Selction](../../images/iam-wildrydes-role-selection.png)
 
 1. Choose **Attach policies**.
 
 1. Search for `WildRydes` and check the box next to the policy named ***WildRydesAPI-StandardUserPolicy***.
 
-    ![Attach API Gateway IAM Policy](../images/iam-cognito-authrole-attach-apigateway-policy.png)
+    ![Attach API Gateway IAM Policy](../../images/iam-cognito-authrole-attach-apigateway-policy.png)
 
 1. Choose **Attach policy**.
 
 1. You should now see the ***WildRydesAPI-StandardUserPolicy*** policy associated with your Cognito IAM auth role.
 
-    ![Permissions after adding IAM policy](../images/iam-cognito-authrole-permissions-after-policy-update.png)
+    ![Permissions after adding IAM policy](../../images/iam-cognito-authrole-permissions-after-policy-update.png)
 

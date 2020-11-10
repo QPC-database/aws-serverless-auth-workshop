@@ -23,7 +23,7 @@ In the Amazon API Gateway console, create a new Cognito user pool authorizer for
 
 1. Click ***Create***.
 
-    ![Authorizers](../images/apigatewayv2-authorizer-settings.png)
+    ![Authorizers](../../images/apigatewayv2-authorizer-settings.png)
 
 
 1. Confirm ***JWT*** is selected for ***Authorizer Type***
@@ -36,7 +36,7 @@ In the Amazon API Gateway console, create a new Cognito user pool authorizer for
 
 1. Click Add Audience and in the audience box paste the ***Client Id*** for the App Client. 
 
-    ![Authorizer final](../images/apigatewayv2-create-user-pool-authorizer.png)
+    ![Authorizer final](../../images/apigatewayv2-create-user-pool-authorizer.png)
     
 1. Click ***Save and Attach***
 
@@ -81,7 +81,7 @@ Now that you've deployed the new authorizer configuration to production, all API
 
 1. The unicorn ride request should be fulfilled as before now. To see the full request headers which were sent, look at the developer console for an **API Request** informational message which includes the API Request details once expanded, including the full headers and body of the request.
 
-    ![API Request Details](../images/cognito-authorizer-request-console-log.png)
+    ![API Request Details](../../images/cognito-authorizer-request-console-log.png)
     
 {{% /expand %}}
 

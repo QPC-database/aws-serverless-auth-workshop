@@ -17,7 +17,7 @@ weight = 61
 
 1. Within the Cloud9 IDE, open up a terminal. You can do this by clicking the `+` icon in the lower pane and selecting **New Terminal**.
 
-    ![Cloud9 Terminal](../images/cloud9-new-terminal.png)
+    ![Cloud9 Terminal](../../images/cloud9-new-terminal.png)
 
 1. Paste the following command and be sure to update your S3 bucket name:
 

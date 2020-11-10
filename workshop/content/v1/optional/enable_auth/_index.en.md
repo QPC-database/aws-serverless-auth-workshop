@@ -21,17 +21,17 @@ In the Amazon API Gateway console, update the authorization type to ***AWS_IAM**
 
 1. Choose **Method Request**
 
-    ![Method Request Selection](../images/apigateway-method-request-settings.png)
+    ![Method Request Selection](../../images/apigateway-method-request-settings.png)
 
 1. Choose the pencil icon next to `Authorization` to edit the setting.
 
 1. Select **AWS_IAM** from the list of authorization options presented.
 
-    ![API Gateway Authorizer Selection](../images/apigateway-authorizer-iam-selection.png)
+    ![API Gateway Authorizer Selection](../../images/apigateway-authorizer-iam-selection.png)
 
 1. **Save** your selection by clicking the checkmark icon next to the drop down.
 
-    ![API Gateway Authorizer Confirmation](../images/apigateway-authorizer-iam-confirmation.png)
+    ![API Gateway Authorizer Confirmation](../../images/apigateway-authorizer-iam-confirmation.png)
 
 1. Next, choose the **Actions** button at the top of the resources list.
 

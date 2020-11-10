@@ -19,7 +19,7 @@ In the Amazon API Gateway console, create a new Cognito user pool authorizer for
 
 1. Under your newly created API, choose ***Authorizers***.
 
-    ![Authorizers](../images/apigateway-authorizer-settings.png)
+    ![Authorizers](../../images/apigateway-authorizer-settings.png)
 
 1. Choose ***Create New Authorizer***.
 
@@ -37,7 +37,7 @@ In the Amazon API Gateway console, create a new Cognito user pool authorizer for
 
 1. Choose ***Create***.
 
-    ![Create user pool authorizer screenshot](../images/create-user-pool-authorizer.png)
+    ![Create user pool authorizer screenshot](../../images/create-user-pool-authorizer.png)
 
 #### Verify your authorizer configuration
 
@@ -53,13 +53,13 @@ In the Amazon API Gateway console, create a new Cognito user pool authorizer for
 
 1. Paste the auth token into the ***Authorization Token*** field in the popup dialog.
 
-    ![Test Authorizer screenshot](../images/apigateway-test-authorizer.png)
+    ![Test Authorizer screenshot](../../images/apigateway-test-authorizer.png)
 
 1. Click ***Test*** button and verify that the response code is 200 and that you see the claims for your user displayed. Since this is the identity token, the user's attributes are encoded within the JWT as claims which can be read parsed programatically.
 
     > If you do not receive successful test results as shown below, do not proceed until you're able to validate the authorizer is configured properly and passes this test.
 
-    ![Successful Authorizer test screenshot](../images/apigateway-authorizer-test.png)
+    ![Successful Authorizer test screenshot](../../images/apigateway-authorizer-test.png)
 
 #### Require Cognito authentication for API Gateway
 
@@ -69,7 +69,7 @@ In the Amazon API Gateway console, create a new Cognito user pool authorizer for
 
 1. Choose ***Method Request***
 
-    ![Method Request Selection](../images/apigateway-method-request-settings.png)
+    ![Method Request Selection](../../images/apigateway-method-request-settings.png)
 
 1. Choose the pencil icon next to `Authorization` to edit the setting.
 
@@ -77,11 +77,11 @@ In the Amazon API Gateway console, create a new Cognito user pool authorizer for
 
     > If you don't see this option listed, Reload the browser page then this authorizer option should appear in the drop-down list.
 
-    ![API Gateway Authorizer Selection](../images/apigateway-authorizer-cognito-selection.png)
+    ![API Gateway Authorizer Selection](../../images/apigateway-authorizer-cognito-selection.png)
 
 1. ***Save*** your selection by clicking the checkmark icon next to the drop down.
 
-    ![API Gateway Authorizer Confirmation](../images/apigateway-authorizer-cognito-confirmation.png)
+    ![API Gateway Authorizer Confirmation](../../images/apigateway-authorizer-cognito-confirmation.png)
 
 1. Next, choose the ***Actions*** button at the top of the resources list.
 
@@ -130,7 +130,7 @@ Now that you've deployed the new authorizer configuration to production, all API
 
 1. The unicorn ride request should be fulfilled as before now. To see the full request headers which were sent, look at the developer console for an **API Request** informational message which includes the API Request details once expanded, including the full headers and body of the request.
 
-    ![API Request Details](../images/cognito-authorizer-request-console-log.png)
+    ![API Request Details](../../images/cognito-authorizer-request-console-log.png)
     
 {{% /expand %}}
 

@@ -9,7 +9,7 @@ Building on Module 2, this module updates our Serverless backend built earlier u
 
    > For production APIs, you should use either the token-based authorization OR request signing authorization via IAM demonstrated in this module, but not use both for the same API.
 
-   ![Module 2 architecture](../images/wildrydes-module2-architecture.png)
+   ![Module 2 architecture](../../images/wildrydes-module2-architecture.png)
    
 ---
 #### Implementation Overview

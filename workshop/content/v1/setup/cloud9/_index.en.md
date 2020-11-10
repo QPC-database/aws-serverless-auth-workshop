@@ -42,10 +42,10 @@ Click on the link for the region you have chosen:
 
     > Note: When you launch the stack, CloudFormation deploys a nested CloudFormation stack to launch the Cloud9 resources. You can safely ignore that template which is prefixed with "aws-cloud9-WildRydes-".
    
-    ![cloudformation outputs](../images/cloud9_cfn_outputs.png)
+    ![cloudformation outputs](../../images/cloud9_cfn_outputs.png)
 
 {{% /expand%}}
 
 Once you have launched and navigated to your Cloud9 workspace URL shown in your CloudFormation stack outputs, you should have an IDE environment as shown below: 
 
-![cloud9 environment](../images/cloud9_initial_screen.png)
+![cloud9 environment](../../images/cloud9_initial_screen.png)

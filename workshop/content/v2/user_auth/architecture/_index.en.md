@@ -7,7 +7,7 @@ The architecture for this module is very straightforward. All of your static web
 
 For this module, we will be creating a Cognito User Pool as our secure user directory then configuring our application to use the AWS Amplify library to easily integrate Amazon Cognito into our application.
 
-![Module 1 Architecture](../images/wildrydes-module1-architecture.png)
+![Module 1 Architecture](../../images/wildrydes-module1-architecture.png)
 
 ### Implementation Overview
 

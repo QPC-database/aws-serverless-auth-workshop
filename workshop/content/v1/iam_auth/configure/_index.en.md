@@ -21,13 +21,13 @@ Browse to the IAM console and find your Cognito Identity Pool's authenticated us
 
     > If the full name of the role is hidden from view due to column width, you can hover over the partially visible name of the role to see the full name of the role as a tool tip.
 
-    ![IAM WildRydes Auth Role Selction](../images/iam-wildrydes-role-selection.png)
+    ![IAM WildRydes Auth Role Selction](../../images/iam-wildrydes-role-selection.png)
 
 1. We want to grant permissions to this role explicitly so we will use an inline policy, which would be deleted with this role if it were ever to be deleted.
 
 1. Choose **Add inline policy** on the right-hand side to create a new inline policy associated to this IAM role.
 
-    ![Add inline policy to WildRydes auth role](../images/iam-wildrydes-auth-role-add-inline-policy.png)
+    ![Add inline policy to WildRydes auth role](../../images/iam-wildrydes-auth-role-add-inline-policy.png)
 
 1. Choose the **JSON** tab to allow you to free-form edit the new policy.
 

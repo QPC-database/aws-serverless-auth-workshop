@@ -5,7 +5,7 @@ weight = 31
 
 Building on Module 1, this module will add a Serverless backend built using Amazon API Gateway and AWS Lambda. For persistence, you will use Amazon DynamoDB as a NoSQL data store. All of the above services are serverless so you can seamlessly scale your application as your demands grow. After creating the API, we will integrate our client application to call it via the AWS Amplify library.
 
-   ![Solution Architecture](../images/wildrydes-module2-architecture.png)
+   ![Solution Architecture](../../images/wildrydes-module2-architecture.png)
     
 ### Implementation Overview
 
