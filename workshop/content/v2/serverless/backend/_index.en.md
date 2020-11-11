@@ -7,7 +7,7 @@ You will be creating your Serverless API built with Amazon API Gateway, AWS Lamb
 
 ### High-Level Instructions
 
-Create a new WildRydes Serverless Backend stack by launching a CloudFormation stack based on the ***ServerlessBackend.yaml*** file in the module 2 folder. Name the stack `WildRydesBackend`.
+Create a new WildRydes Serverless Backend stack by launching a CloudFormation stack based on the ***ServerlessBackendv2.yaml*** file in the module 2 folder. Name the stack `WildRydesBackend`.
 
 This WildRydes backend CloudFormation template will provision your API Gateway deployment with Lambda functions for compute, a DynamoDB database for persistence, and an S3 bucket for photo uploads which will be used in module 3. Additionally, the necessary function invocation permissions and execution role for the Lambda function will also be provisioned.
 
